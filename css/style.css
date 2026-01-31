@@ -54,7 +54,7 @@ nav a{
 
 nav a:hover{color:var(--accent);}
 .mobile-toggle{display:none; background:transparent; border:0; color:var(--surface); font-size:1.6rem; cursor:pointer;}
-.header-cta .btn{padding:6px 14px; border-radius:8px; background:var(--accent); color:var(--surface); text-decoration:none; font-weight:600; transition:0.2s;}
+.header-cta .btn{padding:6px 14px; border-radius:8px; background:var(--accent); color:var(--surface); text-decoration:none; font-weight:600; transition:0.2s; white-space: nowrap;}
 .header-cta .btn:hover{opacity:0.9; transform:translateY(-1px);}
 
 /* Hero */
@@ -249,6 +249,10 @@ nav a:hover{color:var(--accent);}
     background-image: url(../images/vback.png);
     background-position: center;
     border-width: 0px !important;
+}
+
+.links {
+  font-size: small;
 }
 
 /* ===============================
